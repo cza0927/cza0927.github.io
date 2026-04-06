@@ -37,12 +37,16 @@ My research centers on advancing the **social intelligence** of AI, with the goa
 [Aegis: Automated Error Generation and Attribution for Multi-Agent Systems](https://arxiv.org/abs/2509.14295)
 
 Fanqi Kong, Ruijie Zhang, Huaxiao Yin, Guibin Zhang, Xiaofei Zhang, **Ziang Chen**, Zhaowei Zhang, Xiaoyuan Zhang, Song-Chun Zhu, Xue Feng
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025 Workshop LAW (Language-Agent-World)</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [ValuePilot: A Two-Phase Framework for Value-Driven Decision-Making](https://arxiv.org/abs/2512.13716)
 
 Yitong Luo\*, **Ziang Chen\***, Hou Hei Lam, Jiayu zhan, Junqi Wang, Zhenliang Zhang, Xue Feng
+</div>
+</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025 (Poster)</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
@@ -50,6 +54,8 @@ Yitong Luo\*, **Ziang Chen\***, Hou Hei Lam, Jiayu zhan, Junqi Wang, Zhenliang Z
 [Evaluating generalization capabilities of LLM-based agents in mixed-motive scenarios using concordia](http://arxiv.org/abs/2512.03318)
 
 Chandler Smith, ...,  Zhiqiang Wu, **Ziang Chen**, ..., Joel Z. Leibo
+</div>
+</div>
 
 
 
