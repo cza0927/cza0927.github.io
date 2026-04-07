@@ -17,6 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+# 👤 About me
+
 I am an undergraduate student at the [Department of Automation](https://www.au.tsinghua.edu.cn/), [Tsinghua University](https://www.tsinghua.edu.cn/), advised by Prof. [Song-Chun Zhu](https://zhusongchun.net/). I am currently an intern at the Multi-agent Lab, Beijing Institute for General Artificial Intelligence ([BIGAI](https://www.bigai.ai/)), China, mentored by [Mingjie Bi](https://mingjieb.github.io/).
 
 **Research Interests**
@@ -27,7 +29,7 @@ My research focuses on **social intelligence** in AI systems, especially how AI 
 - **Applications**: Social simulation, AI for Law
 
 # 🔥 News
-- *2026.04*: &nbsp;🎉🎉 “JurisBench” was accepted to ACL 2026 (Poster).
+- *2026.04*: &nbsp;🎉🎉 One paper gets accepted to ACL 2026 (Poster).
 
 # 📝 Publications 
 
