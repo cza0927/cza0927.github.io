@@ -20,10 +20,10 @@ redirect_from:
 I am an undergraduate student at the [Department of Automation](https://www.au.tsinghua.edu.cn/), [Tsinghua University](https://www.tsinghua.edu.cn/), advised by Prof. [Song-Chun Zhu](https://zhusongchun.net/). I am currently an intern at the Multi-agent Lab, Beijing Institute for General Artificial Intelligence ([BIGAI](https://www.bigai.ai/)), China.
 
 **Research Interests**
-My research centers on advancing the **social intelligence** of AI, with the goal of improving their ability to coordinate behavior and make decisions in complex, dynamic, and human-like social environments. More broadly, I am interested in building trustworthy and cooperative multi-agent AI systems that can reason about social interaction in a principled way.
+My research focuses on **social intelligence** in AI systems, especially how AI agents coordinate, make decisions, and interact in complex and dynamic social environments. More broadly, I am interested in building trustworthy and cooperative multi-agent systems with principled models of social reasoning.
 
-- **Research Areas**: Multi-Agent System(MAS), Computational Game Theory
-- **Methodologies**: Multi-agent reinforcement learning (MARL), large language model (LLM)-based agents, Beyasian Theory of Mind (BToM)
+- **Research Areas**: **Multi-Agent Systems (MAS)**, Computational Game Theory
+- **Methodologies**: Multi-agent reinforcement learning (MARL), LLM-based agents, Bayesian Theory of Mind (BToM)
 - **Applications**: Social simulation, Legal AI
 
 # 🔥 News
