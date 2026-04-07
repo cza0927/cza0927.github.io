@@ -32,7 +32,7 @@ My research centers on advancing the **social intelligence** of AI, with the goa
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026 (Poster)</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026 (Poster)</div><img src='images/Jurisbench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 JurisBench: A Deep Benchmark for Assessing Large Language Models in Professional Legal Practice
 
@@ -41,7 +41,7 @@ JurisBench: A Deep Benchmark for Assessing Large Language Models in Professional
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026 (Poster)</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026 (Poster)</div><img src='images/AEGIS.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Aegis: Automated Error Generation and Attribution for Multi-Agent Systems](https://arxiv.org/abs/2509.14295)
 
@@ -50,7 +50,7 @@ Fanqi Kong, Ruijie Zhang, Huaxiao Yin, Guibin Zhang, Xiaofei Zhang, **Ziang Chen
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025 Workshop LAW (Language-Agent-World)</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025 Workshop LAW (Language-Agent-World)</div><img src='images/valuepilot.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [ValuePilot: A Two-Phase Framework for Value-Driven Decision-Making](https://arxiv.org/abs/2512.13716)
 
@@ -59,7 +59,7 @@ Yitong Luo\*, **Ziang Chen\***, Hou Hei Lam, Jiayu zhan, Junqi Wang, Zhenliang Z
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025 (Poster)</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025 (Poster)</div><img src='images/Evaluating_generalization.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Evaluating generalization capabilities of LLM-based agents in mixed-motive scenarios using concordia](http://arxiv.org/abs/2512.03318)
 
@@ -82,12 +82,9 @@ Chandler Smith, ...,  Zhiqiang Wu, **Ziang Chen**, ..., Joel Z. Leibo
 - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
 
 # 🎖 Honors and Awards
-## Honors and Awards
-## 荣誉奖励
-
 - **Undergraduate (2022.9-2026.6):**
-  - **2024**：清华大学优秀共青团员、清华大学学生会系统优秀骨干
   - **2024–2025 学年度**：清华大学综合优秀奖（清华校友—黄奕聪通用人工智能奖学金）
+  - **2024**：清华大学优秀共青团员、清华大学学生会系统优秀骨干
   - **2023–2024 学年度**：清华大学社会工作优秀奖、清华大学科技创新优秀奖（清华校友—黄奕聪通用人工智能奖学金）
   - **2022–2023 学年度**：清华大学综合优秀奖（清华之友—小米奖学金）
 - **High School (2019.9-2022.6)**：
