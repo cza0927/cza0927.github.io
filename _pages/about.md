@@ -23,11 +23,11 @@ I am an undergraduate student at the [Department of Automation](https://www.au.t
 My research focuses on **social intelligence** in AI systems, especially how AI agents coordinate, make decisions, and interact in complex and dynamic social environments. More broadly, I am interested in building trustworthy and cooperative multi-agent systems with principled models of social reasoning.
 
 - **Research Areas**: **Multi-Agent Systems (MAS)**, Computational Game Theory
-- **Methodologies**: Multi-agent reinforcement learning (MARL), LLM-based agents, Bayesian Theory of Mind (BToM)
-- **Applications**: Social simulation, Legal AI
+- **Methodologies**: Multi-agent reinforcement learning (MARL), LLM-based agents, Bayesian Theory of Mind
+- **Applications**: Social simulation, AI for Law
 
 # 🔥 News
-- *2026.04*: &nbsp;🎉🎉 one paper accepted by ACL 2026!
+- *2026.04*: &nbsp;🎉🎉 “JurisBench” was accepted to ACL 2026 (Poster).
 
 # 📝 Publications 
 
@@ -93,7 +93,7 @@ Chandler Smith, ...,  Zhiqiang Wu, **Ziang Chen**, ..., Joel Z. Leibo
   - 全国高中数学、计算机、化学奥林匹克竞赛省一等奖
 
 # 📖 Educations
-- *2022.09 - 2026.06 (now)*, Tsinghua University, Beijing, China
+- *2022.09 - 2026.06*, Tsinghua University, Beijing, China
 - *2019.09 - 2022.06*, Jiamusi No.1 High School, Heilongjiang Province, China
 
 <!-- # 💬 Invited Talks
