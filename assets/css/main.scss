@@ -123,12 +123,19 @@ h1:before, .anchor:before {
     .page-views-total {
         margin-bottom: 1rem;
         font-weight: 600;
-    }
-
-    .page-views-map {
         display: flex;
         justify-content: center;
-        overflow-x: auto;
+
+        a,
+        img {
+            display: block;
+        }
+
+        img {
+            width: 30%;
+            min-width: 180px;
+            height: auto;
+        }
     }
 
     .page-views-note {
