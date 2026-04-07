@@ -10,6 +10,12 @@ title                    : "Ziang Chen"
 description              : ""
 repository               : "cza0927.github.io"
 google_scholar_stats_use_cdn : true
+clustrmaps:
+  site_url: "https://clustrmaps.com/site/1c9ng"
+  map_embed: >-
+    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=_zcjv5wfxLNZfRt81JSpneKYH7CBi8aHcMxnfISCcRQ&cl=ffffff&w=a"></script>
+  total_views_text: >-
+    <a href="https://clustrmaps.com/site/1c9ng" title="ClustrMaps"><img src="//www.clustrmaps.com/map_v2.png?d=_zcjv5wfxLNZfRt81JSpneKYH7CBi8aHcMxnfISCcRQ&cl=ffffff" alt="ClustrMaps total views" /></a>
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/

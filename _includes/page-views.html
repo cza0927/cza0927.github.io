@@ -1,0 +1,22 @@
+{% assign clustrmaps = site.clustrmaps %}
+<div class="page-views-section">
+  <h1>🌍 Page Views</h1>
+  {% if clustrmaps.total_views_text != "" %}
+  <div class="page-views-total">{{ clustrmaps.total_views_text }}</div>
+  {% endif %}
+
+  {% if clustrmaps.map_embed != "" %}
+  <div class="page-views-map">
+    {{ clustrmaps.map_embed }}
+  </div>
+  {% elsif clustrmaps.site_url != "" %}
+  <p class="page-views-note">
+    ClustrMaps is configured with a site URL but no embed snippet yet. Paste the official widget HTML into
+    <a href="{{ '/_config.yml' | relative_url }}">_config.yml</a> under <code>clustrmaps.map_embed</code>.
+  </p>
+  {% else %}
+  <p class="page-views-note">
+    ClustrMaps widget is not configured yet. Add your official embed snippet to <code>clustrmaps.map_embed</code> in <code>_config.yml</code>.
+  </p>
+  {% endif %}
+</div>
