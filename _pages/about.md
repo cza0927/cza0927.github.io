@@ -105,4 +105,6 @@ Chandler Smith, ...,  Zhiqiang Wu, **Ziang Chen**, ..., Joel Z. Leibo
 # 💻 Internships
 - *2025. - now*, Beijing Institute for General Artificial Intelligence ([BIGAI](https://www.bigai.ai/)), China.
 
-{% include page-views.html %}
+## Page Views
+
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=_zcjv5wfxLNZfRt81JSpneKYH7CBi8aHcMxnfISCcRQ&cl=ffffff&w=a"></script>
