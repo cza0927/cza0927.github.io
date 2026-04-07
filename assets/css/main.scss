@@ -132,6 +132,13 @@ h1:before, .anchor:before {
         img {
             max-width: 100%;
         }
+
+        &.page-views-map--scaled {
+            transform: scale(0.5);
+            transform-origin: top center;
+            margin-top: -25%;
+            margin-bottom: -25%;
+        }
     }
 
     .page-views-note {
