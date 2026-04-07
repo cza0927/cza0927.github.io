@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am an undergraduate student at the [Department of Automation](https://www.au.tsinghua.edu.cn/), [Tsinghua University](https://www.tsinghua.edu.cn/), advised by Professor [Song-Chun Zhu](https://zhusongchun.net/). I am interned at the Multi-agent Lab, Beijing Institute for General Artificial Intelligence ([BIGAI](https://www.bigai.ai/)), China.
+I am an undergraduate student at the [Department of Automation](https://www.au.tsinghua.edu.cn/), [Tsinghua University](https://www.tsinghua.edu.cn/), advised by Prof. [Song-Chun Zhu](https://zhusongchun.net/). I am currently an intern at the Multi-agent Lab, Beijing Institute for General Artificial Intelligence ([BIGAI](https://www.bigai.ai/)), China.
 
 **Research Interests**
 My research centers on advancing the **social intelligence** of AI, with the goal of improving their ability to coordinate behavior and make decisions in complex, dynamic, and human-like social environments. More broadly, I am interested in building trustworthy and cooperative multi-agent AI systems that can reason about social interaction in a principled way.
