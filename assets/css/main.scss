@@ -120,21 +120,17 @@ h1:before, .anchor:before {
 .page-views-section {
     margin-top: 3rem;
 
-    .page-views-total {
-        margin-bottom: 1rem;
-        font-weight: 600;
+    .page-views-map {
         display: flex;
         justify-content: center;
+        width: 100%;
+        overflow-x: auto;
 
-        a,
+        #clustrmaps,
+        iframe,
+        canvas,
         img {
-            display: block;
-        }
-
-        img {
-            width: 66%;
-            min-width: 396px;
-            height: auto;
+            max-width: 100%;
         }
     }
 
