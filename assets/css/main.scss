@@ -125,19 +125,13 @@ h1:before, .anchor:before {
         justify-content: center;
         width: 100%;
         overflow-x: auto;
+        margin-top: 1rem;
 
         #clustrmaps,
         iframe,
         canvas,
         img {
             max-width: 100%;
-        }
-
-        &.page-views-map--scaled {
-            transform: scale(0.5);
-            transform-origin: top center;
-            margin-top: -25%;
-            margin-bottom: -25%;
         }
     }
 
