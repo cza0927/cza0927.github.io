@@ -27,8 +27,7 @@ My research centers on advancing the **social intelligence** of AI, with the goa
 - **Applications**: Social simulation, Legal AI
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2026.04*: &nbsp;🎉🎉 one paper accepted by ACL 2026!
 
 # 📝 Publications 
 
