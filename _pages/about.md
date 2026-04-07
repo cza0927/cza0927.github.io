@@ -60,7 +60,7 @@ Yitong Luo\*, **Ziang Chen\***, Hou Hei Lam, Jiayu zhan, Junqi Wang, Zhenliang Z
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025 (Poster)</div><img src='../images/Evaluating_generalization.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025 D&B (Poster)</div><img src='../images/Evaluating_generalization.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 [Evaluating generalization capabilities of LLM-based agents in mixed-motive scenarios using concordia](http://arxiv.org/abs/2512.03318)
 
