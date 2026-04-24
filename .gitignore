@@ -3,3 +3,5 @@ push.sh
 .DS_Store
 .venv
 更新思路.md
+.bundle/
+vendor/bundle/

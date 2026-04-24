@@ -8,12 +8,17 @@
   btnTime.classList.add('sort-btn', 'is-active');
   btnTopic.classList.add('sort-btn');
 
+  var collator = new Intl.Collator('zh-Hans', { numeric: true, sensitivity: 'base' });
+
   function getCards() {
     return Array.prototype.slice.call(grid.querySelectorAll('.book-card'));
   }
 
   function normalizeRead(v) {
-    return String(v || '').trim();
+    return String(v || '')
+      .trim()
+      .replace(/[–—]/g, '-')
+      .replace(/\s+/g, '');
   }
 
   function parseYearMonth(input) {
@@ -29,15 +34,16 @@
     return year * 100 + month;
   }
 
-  function normalizeDash(v) {
-    return String(v || '').replace(/[–—]/g, '-');
-  }
+  function parseRange(rangeText) {
+    var text = normalizeRead(rangeText);
+    if (!text) return { start: -1, end: -1 };
 
-  function extractStartYearMonthText(text) {
-    var normalized = normalizeDash(text);
-    var m = normalized.match(/(\d{2,4}[.\/-]\d{1,2})/);
-    if (!m) return -1;
-    return parseYearMonth(m[1]);
+    var m = text.match(/(\d{2,4}[.\/-]\d{1,2})(?:-(\d{2,4}[.\/-]\d{1,2}))?/);
+    if (!m) return { start: -1, end: -1 };
+
+    var start = parseYearMonth(m[1]);
+    var end = m[2] ? parseYearMonth(m[2]) : start;
+    return { start: start, end: end };
   }
 
   function getReadTextFromCard(card) {
@@ -51,26 +57,27 @@
     return '';
   }
 
-  function getStartReadKey(readRange) {
-    var text = normalizeDash(normalizeRead(readRange));
-    if (!text) return -1;
+  function getCardReadInfo(card) {
+    var fromText = parseRange(getReadTextFromCard(card));
+    if (fromText.start > 0) return fromText;
 
-    var start = text.split('-')[0];
-    return parseYearMonth(start.trim());
+    var fromData = parseRange(card.getAttribute('data-read'));
+    if (fromData.start > 0) return fromData;
+
+    return { start: -1, end: -1 };
   }
 
-  function getCardStartReadKey(card) {
-    var fromData = getStartReadKey(card.getAttribute('data-read'));
-    if (fromData > 0) return fromData;
-
-    var fromText = extractStartYearMonthText(getReadTextFromCard(card));
-    if (fromText > 0) return fromText;
-
-    return -1;
+  function getCardTheme(card) {
+    return String(card.getAttribute('data-theme') || '').trim();
   }
 
-  function normalizeTheme(v) {
-    return String(v || '').trim().toLowerCase();
+  function compareByTime(a, b) {
+    var ra = getCardReadInfo(a);
+    var rb = getCardReadInfo(b);
+
+    if (rb.start !== ra.start) return rb.start - ra.start;
+    if (rb.end !== ra.end) return rb.end - ra.end;
+    return collator.compare(getCardTheme(a), getCardTheme(b));
   }
 
   function render(sortedCards) {
@@ -85,27 +92,19 @@
   }
 
   function sortByTime() {
-    var cards = getCards().sort(function (a, b) {
-      var ra = getCardStartReadKey(a);
-      var rb = getCardStartReadKey(b);
-      return rb - ra;
-    });
+    var cards = getCards().sort(compareByTime);
     render(cards);
     setActive('time');
   }
 
   function sortByTopic() {
     var cards = getCards().sort(function (a, b) {
-      var ta = normalizeTheme(a.getAttribute('data-theme'));
-      var tb = normalizeTheme(b.getAttribute('data-theme'));
+      var ta = getCardTheme(a);
+      var tb = getCardTheme(b);
+      var themeCmp = collator.compare(ta, tb);
+      if (themeCmp !== 0) return themeCmp;
 
-      if (ta === tb) {
-        var ra = getCardStartReadKey(a);
-        var rb = getCardStartReadKey(b);
-        return rb - ra;
-      }
-
-      return ta.localeCompare(tb);
+      return compareByTime(a, b);
     });
     render(cards);
     setActive('topic');
