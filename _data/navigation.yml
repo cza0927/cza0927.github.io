@@ -18,5 +18,13 @@ main:
   - title: "Invited Talks"
     url: "/#-invited-talks"
 
+  - title: "More ▼"
+    url: "#"
+    children:
+      - title: "Bookshelf"
+        url: "/bookshelf/"
+      - title: "Life"
+        url: "/life/"
+
   - title: "Internships"
     url: "/#-internships"

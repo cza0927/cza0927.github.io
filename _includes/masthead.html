@@ -6,8 +6,27 @@
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
           {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% if link.children %}
+              <li class="masthead__menu-item has-dropdown" style="position: relative; display: inline-block;">
+                <a href="{{ link.url }}" style="cursor: pointer;">{{ link.title }}</a>
+                <ul class="dropdown-menu" style="display: none; position: absolute; top: 100%; left: 0; background-color: #fff; box-shadow: 0 4px 6px rgba(0,0,0,0.1); padding: 10px; margin: 0; list-style: none; min-width: 120px; z-index: 1000; border-radius: 4px;">
+                  {% for child in link.children %}
+                    <li style="margin: 0; padding: 5px 0;"><a href="{{ domain }}{{ child.url }}" style="display: block; padding: 5px 10px; color: #333; text-decoration: none;">{{ child.title }}</a></li>
+                  {% endfor %}
+                </ul>
+              </li>
+            {% else %}
+              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% endif %}
           {% endfor %}
+          <style>
+            .has-dropdown:hover .dropdown-menu {
+              display: block !important;
+            }
+            .dropdown-menu a:hover {
+              background-color: #f5f5f5;
+            }
+          </style>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
