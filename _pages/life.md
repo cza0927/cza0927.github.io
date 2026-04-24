@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Life
 permalink: /life/
 author_profile: true

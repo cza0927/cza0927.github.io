@@ -46,6 +46,12 @@
   min-width: 0;
 }
 
+.poem-raw {
+  white-space: pre-wrap;
+  line-height: 1.9;
+  color: #2f2f2f;
+}
+
 .poem-stanza {
   margin: 0.6rem 0;
   white-space: pre-wrap;

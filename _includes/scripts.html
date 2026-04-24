@@ -1,4 +1,10 @@
 <script src="assets/js/main.min.js"></script>
+{% if page.url == '/bookshelf/' %}
+<script src="{{ '/assets/js/bookshelf.js' | relative_url }}"></script>
+{% endif %}
+{% if page.url == '/poem/' %}
+<script src="{{ '/assets/js/poem.js' | relative_url }}"></script>
+{% endif %}
 
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}
