@@ -4,24 +4,47 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
+          {% assign current_path = page.url | replace: 'index.html', '' %}
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
+            <a href="/#about-me" class="{% if current_path == '/' %}is-current{% endif %}">Homepage</a>
+          </li>
           {% for link in site.data.navigation.main %}
             {% if link.children %}
+              {% assign is_parent_current = false %}
+              {% for child in link.children %}
+                {% assign child_path = child.url | replace: 'index.html', '' %}
+                {% if current_path == child_path %}
+                  {% assign is_parent_current = true %}
+                {% endif %}
+              {% endfor %}
               <li class="masthead__menu-item has-dropdown" style="position: relative; display: inline-block;">
-                <a href="{{ link.url }}" style="cursor: pointer;">{{ link.title }}</a>
+                <a href="{{ link.url }}" class="{% if is_parent_current %}is-current{% endif %}" style="cursor: pointer;">{{ link.title }}</a>
                 <ul class="dropdown-menu" style="display: none; position: absolute; top: 100%; left: 0; background-color: #fff; box-shadow: 0 4px 6px rgba(0,0,0,0.1); padding: 10px; margin: 0; list-style: none; min-width: 120px; z-index: 1000; border-radius: 4px; flex-direction: column;">
                   {% for child in link.children %}
-                    <li style="margin: 0; padding: 5px 0; display: block; width: 100%;"><a href="{{ domain }}{{ child.url }}" style="display: block; padding: 5px 10px; color: #333; text-decoration: none; white-space: nowrap;">{{ child.title }}</a></li>
+                    {% assign child_path = child.url | replace: 'index.html', '' %}
+                    <li style="margin: 0; padding: 5px 0; display: block; width: 100%;"><a href="{{ child.url | relative_url }}" class="{% if current_path == child_path %}is-current{% endif %}" style="display: block; padding: 5px 10px; color: #333; text-decoration: none; white-space: nowrap;">{{ child.title }}</a></li>
                   {% endfor %}
                 </ul>
               </li>
             {% else %}
-              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+              {% assign link_path = link.url | replace: 'index.html', '' %}
+              <li class="masthead__menu-item"><a href="{{ link.url | relative_url }}" class="{% if current_path == link_path %}is-current{% endif %}">{{ link.title }}</a></li>
             {% endif %}
           {% endfor %}
           <style>
             .has-dropdown:hover .dropdown-menu {
               display: flex !important;
+            }
+            .dropdown-menu li:first-child,
+            .dropdown-menu a {
+              font-weight: 400 !important;
+            }
+            #site-nav a.is-current {
+              font-weight: 700;
+              color: #111;
+            }
+            #site-nav a.is-current:before {
+              transform: scaleX(1);
             }
             .dropdown-menu a:hover {
               background-color: #f5f5f5;

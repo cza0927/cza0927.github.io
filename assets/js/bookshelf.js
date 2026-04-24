@@ -29,12 +29,44 @@
     return year * 100 + month;
   }
 
+  function normalizeDash(v) {
+    return String(v || '').replace(/[–—]/g, '-');
+  }
+
+  function extractStartYearMonthText(text) {
+    var normalized = normalizeDash(text);
+    var m = normalized.match(/(\d{2,4}[.\/-]\d{1,2})/);
+    if (!m) return -1;
+    return parseYearMonth(m[1]);
+  }
+
+  function getReadTextFromCard(card) {
+    var tags = Array.prototype.slice.call(card.querySelectorAll('.book-tag'));
+    for (var i = 0; i < tags.length; i++) {
+      var t = tags[i].textContent || '';
+      if (/^\s*read\s*:/i.test(t)) {
+        return t.replace(/^\s*read\s*:/i, '').trim();
+      }
+    }
+    return '';
+  }
+
   function getStartReadKey(readRange) {
-    var text = normalizeRead(readRange);
+    var text = normalizeDash(normalizeRead(readRange));
     if (!text) return -1;
 
     var start = text.split('-')[0];
-    return parseYearMonth(start);
+    return parseYearMonth(start.trim());
+  }
+
+  function getCardStartReadKey(card) {
+    var fromData = getStartReadKey(card.getAttribute('data-read'));
+    if (fromData > 0) return fromData;
+
+    var fromText = extractStartYearMonthText(getReadTextFromCard(card));
+    if (fromText > 0) return fromText;
+
+    return -1;
   }
 
   function normalizeTheme(v) {
@@ -54,8 +86,8 @@
 
   function sortByTime() {
     var cards = getCards().sort(function (a, b) {
-      var ra = getStartReadKey(a.getAttribute('data-read'));
-      var rb = getStartReadKey(b.getAttribute('data-read'));
+      var ra = getCardStartReadKey(a);
+      var rb = getCardStartReadKey(b);
       return rb - ra;
     });
     render(cards);
@@ -68,8 +100,8 @@
       var tb = normalizeTheme(b.getAttribute('data-theme'));
 
       if (ta === tb) {
-        var ra = getStartReadKey(a.getAttribute('data-read'));
-        var rb = getStartReadKey(b.getAttribute('data-read'));
+        var ra = getCardStartReadKey(a);
+        var rb = getCardStartReadKey(b);
         return rb - ra;
       }
 
