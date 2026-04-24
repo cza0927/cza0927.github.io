@@ -15,8 +15,11 @@ main:
   - title: "Educations"
     url: "/#-educations"
 
-  - title: "Invited Talks"
-    url: "/#-invited-talks"
+  # - title: "Invited Talks"
+  #   url: "/#-invited-talks"
+
+  - title: "Internships"
+    url: "/#-internships"
 
   - title: "More ▼"
     url: "#"
@@ -25,6 +28,3 @@ main:
         url: "/bookshelf/"
       - title: "Life"
         url: "/life/"
-
-  - title: "Internships"
-    url: "/#-internships"

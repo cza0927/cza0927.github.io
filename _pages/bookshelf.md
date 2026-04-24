@@ -2,6 +2,7 @@
 layout: page
 title: Bookshelf
 permalink: /bookshelf/
+author_profile: true
 ---
 
 > Books and essays I read outside research. Mostly literature, history, memoir, and other things that help me think slowly.
@@ -17,7 +18,7 @@ permalink: /bookshelf/
 - Random Reads
 -->
 
-<div class="bookshelf-container" style="display: flex; flex-wrap: wrap; gap: 20px;">
+<!-- <div class="bookshelf-container" style="display: flex; flex-wrap: wrap; gap: 20px;">
   <!-- Book Card Example (Left Column/1st item) -->
   <div class="book-card" style="width: 48%; display: flex; box-shadow: 0 1px 3px rgba(0,0,0,0.1); padding: 10px; border-radius: 5px;">
     <img src="https://via.placeholder.com/100x150" alt="Book Cover" style="width: 100px; height: 150px; object-fit: cover; margin-right: 15px;">
@@ -26,7 +27,7 @@ permalink: /bookshelf/
       <p style="margin: 0; color: #555; font-size: 0.9em; font-style: italic;">Author Name</p>
       <p style="margin-top: 10px; font-size: 0.9em;">A sentence of personal thoughts or short review. Not a deep analysis, just a genuine reflection.</p>
     </div>
-  </div>
+  </div> -->
 
   <!-- Book Card Example (Right Column/2nd item) -->
   <div class="book-card" style="width: 48%; display: flex; box-shadow: 0 1px 3px rgba(0,0,0,0.1); padding: 10px; border-radius: 5px;">

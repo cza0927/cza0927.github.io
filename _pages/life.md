@@ -2,6 +2,7 @@
 layout: page
 title: Life
 permalink: /life/
+author_profile: true
 ---
 
 > A small collection of things I read, did, and cared about outside research.
