@@ -73,8 +73,8 @@ author_profile: true
     </div>
 
       <aside class="poem-note">
-        <h4 class="poem-note-title">2026.4.10 北京开始飘柳絮的第一天，正收拾行李前往枣庄市兰陵县，跟通院法律AI实验室一起前往兰陵县人民法院调研，途中所作，感念近来顺遂。</h4>
-        <p class="poem-note-text"></p>
+        <h4 class="poem-note-title">Note</h4>
+        <p class="poem-note-text">2026.4.10 北京开始飘柳絮的第一天，正收拾行李前往枣庄市兰陵县，跟通院法律AI实验室一起前往兰陵县人民法院调研，途中所作，感念近来顺遂。</p>
       </aside>
     </div>
   </article>

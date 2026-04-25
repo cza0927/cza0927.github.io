@@ -27,7 +27,7 @@ author_profile: true
     - one-line note
   -->
   <div class="book-card" data-theme="历史" data-read="2025.04-2025.05">
-    <img class="book-cover" src="https://via.placeholder.com/100x150" alt="Book Cover">
+    <img class="book-cover" src="/images/bookcovers/zhongguo-lidai-zhengzhi-deshi.jpg" alt="中国历代政治得失 book cover">
     <div>
       <h3 class="book-title">中国历代政治得失</h3>
       <p class="book-author">钱穆</p>
@@ -40,7 +40,7 @@ author_profile: true
   </div>
 
   <div class="book-card" data-theme="历史" data-read="2025.03-2025.04">
-    <img class="book-cover" src="https://via.placeholder.com/100x150" alt="Book Cover">
+    <img class="book-cover" src="/images/bookcovers/mingchao-naxieshi-quanji.jpg" alt="明朝那些事儿（全集） book cover">
     <div>
       <h3 class="book-title">明朝那些事儿（全集）</h3>
       <p class="book-author">当年明月</p>
@@ -53,7 +53,7 @@ author_profile: true
   </div>
 
   <div class="book-card" data-theme="历史" data-read="2025.12-2026.01">
-    <img class="book-cover" src="https://via.placeholder.com/100x150" alt="Book Cover">
+    <img class="book-cover" src="/images/bookcovers/shengsi-pilao.jpg" alt="生死疲劳 book cover">
     <div>
       <h3 class="book-title">生死疲劳</h3>
       <p class="book-author">莫言</p>
@@ -66,7 +66,7 @@ author_profile: true
   </div>
 
   <div class="book-card" data-theme="当代小说" data-read="2026.01-2026.02">
-    <img class="book-cover" src="https://via.placeholder.com/100x150" alt="Book Cover">
+    <img class="book-cover" src="/images/bookcovers/bailuyuan.jpg" alt="白鹿原 book cover">
     <div>
       <h3 class="book-title">白鹿原</h3>
       <p class="book-author">陈忠实</p>
