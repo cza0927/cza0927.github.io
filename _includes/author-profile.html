@@ -69,7 +69,7 @@
         <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Github</a></li>
       {% endif %}
       {% if author.weixin_qr %}
-        <li><a href="{{ author.weixin_qr | relative_url }}" target="_blank" rel="noopener noreferrer"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat</a></li>
+        <li><a href="{{ author.weixin_qr | relative_url }}"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i> WeChat</a></li>
       {% endif %}
       {% if author.stackoverflow %}
         <li><a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stackoverflow</a></li>
@@ -167,7 +167,7 @@
         <a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.weixin_qr %}
-        <a href="{{ author.weixin_qr | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="WeChat QR code"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i></a>
+        <a href="{{ author.weixin_qr | relative_url }}" aria-label="WeChat QR code"><i class="fab fa-fw fa-weixin" aria-hidden="true"></i></a>
       {% endif %}
       {% if author.stackoverflow %}
         <a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i></a>
