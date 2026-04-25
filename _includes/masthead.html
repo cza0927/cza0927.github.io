@@ -20,7 +20,7 @@
                 {% endif %}
               {% endfor %}
               <li class="masthead__menu-item has-dropdown" style="position: relative; display: inline-block;">
-                <a href="{{ link.url }}" class="{% if is_parent_current %}is-current{% endif %}" style="cursor: pointer;">{{ link.title }}</a>
+                <a href="{{ link.url }}" class="{% if is_parent_current %}is-current{% endif %}" style="cursor: pointer;" aria-haspopup="true" aria-expanded="false">{{ link.title }}</a>
                 <ul class="dropdown-menu" style="display: none; position: absolute; top: calc(100% + 6px); left: -6px; background-color: #fff; box-shadow: 0 10px 24px rgba(0,0,0,0.12); border: 1px solid #eaeaea; padding: 8px; margin: 0; list-style: none; min-width: 150px; z-index: 1000; border-radius: 10px; flex-direction: column; gap: 2px;">
                   {% for child in link.children %}
                     {% assign child_path = child.url | replace: 'index.html', '' %}
@@ -36,7 +36,7 @@
             {% endif %}
           {% endfor %}
           <style>
-            .has-dropdown:hover .dropdown-menu {
+            .has-dropdown.is-open .dropdown-menu {
               display: flex !important;
             }
             .has-dropdown > a {
@@ -51,6 +51,7 @@
               font-weight: 400 !important;
             }
             .dropdown-menu a {
+              margin: 0 !important;
               transition: background-color 0.2s ease, color 0.2s ease;
             }
             #site-nav > .visible-links > li > a.is-current {
@@ -69,6 +70,51 @@
               background-color: #f6f8fa;
             }
           </style>
+          <script>
+            (function () {
+              var dropdowns = Array.prototype.slice.call(document.querySelectorAll('#site-nav .has-dropdown'));
+              if (!dropdowns.length) return;
+
+              function closeAll() {
+                dropdowns.forEach(function (item) {
+                  item.classList.remove('is-open');
+                  var trigger = item.querySelector('a');
+                  if (trigger) trigger.setAttribute('aria-expanded', 'false');
+                });
+              }
+
+              dropdowns.forEach(function (item) {
+                var trigger = item.querySelector('a');
+                var menu = item.querySelector('.dropdown-menu');
+                if (!trigger || !menu) return;
+
+                trigger.addEventListener('click', function (event) {
+                  event.preventDefault();
+                  var isOpen = item.classList.contains('is-open');
+                  closeAll();
+                  if (!isOpen) {
+                    item.classList.add('is-open');
+                    trigger.setAttribute('aria-expanded', 'true');
+                  }
+                });
+
+                menu.addEventListener('click', function (event) {
+                  event.stopPropagation();
+                });
+              });
+
+              document.addEventListener('click', function (event) {
+                var clickedInside = dropdowns.some(function (item) {
+                  return item.contains(event.target);
+                });
+                if (!clickedInside) closeAll();
+              });
+
+              document.addEventListener('keydown', function (event) {
+                if (event.key === 'Escape') closeAll();
+              });
+            })();
+          </script>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
