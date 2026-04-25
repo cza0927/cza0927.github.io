@@ -4,7 +4,32 @@ permalink: /poem/
 author_profile: true
 ---
 
-> A small shelf of poems and ci I return to, sometimes quietly, sometimes repeatedly.
+> 创作的小诗小词，录于此处，许不足先生一哂。
+
+<div class="poem-list">
+  <article class="poem-card poem-type-poem">
+    <header class="poem-head">
+      <h3 class="poem-title">斗鸡赋</h3>
+      <div class="poem-date">Date :2023.7.20</div>
+    </header>
+    <div class="poem-body">
+      <div class="poem-main poem-raw">
+仲夏闲岁，农家院旁。
+群鸡骁勇，趾高气昂。
+兴发之至，携食入场。
+西瓜瓤红，稻米儿黄。
+翼舒爪奋，赴斗争抢。
+遥观鸡斗，兴意未央。
+移步近处，鸡啄臂伤。
+惶惶出垅，所幸无恙。
+斗鸡之乐，此地无双。
+      </div>
+      <aside class="poem-note">
+        <h4 class="poem-note-title">Note</h4>
+        <p class="poem-note-text">在新疆喀什农家院作打油诗一首，详情见 https://mp.weixin.qq.com/s/ADHXEd19kmc7qt_4Z0K9-Q</p>
+      </aside>
+    </div>
+  </article>
 
 <div class="poem-list">
   <!--
@@ -28,33 +53,6 @@ author_profile: true
       <aside class="poem-note">
         <h4 class="poem-note-title">Note</h4>
         <p class="poem-note-text">保研结果最终敲定，感念轻舟已过万重山，于寝室小酌。</p>
-      </aside>
-    </div>
-  </article>
-
-
-
-<div class="poem-list">
-  <article class="poem-card poem-type-poem">
-    <header class="poem-head">
-      <h3 class="poem-title">斗鸡赋</h3>
-      <div class="poem-date">Date :2023.7.20</div>
-    </header>
-    <div class="poem-body">
-      <div class="poem-main poem-raw">
-仲夏闲岁，农家院旁。
-群鸡骁勇，趾高气昂。
-兴发之至，携食入场。
-西瓜瓤红，稻米儿黄。
-翼舒爪奋，赴斗争抢。
-遥观鸡斗，兴意未央。
-移步近处，鸡啄臂伤。
-惶惶出垅，所幸无恙。
-斗鸡之乐，此地无双。
-      </div>
-      <aside class="poem-note">
-        <h4 class="poem-note-title">Note</h4>
-        <p class="poem-note-text">在新疆喀什农家院作打油诗一首，详情见 https://mp.weixin.qq.com/s/ADHXEd19kmc7qt_4Z0K9-Q</p>
       </aside>
     </div>
   </article>
