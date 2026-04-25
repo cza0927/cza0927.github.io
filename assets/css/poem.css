@@ -84,6 +84,8 @@
 
 .poem-note-text {
   margin: 0;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .poem-card:not(.has-note) .poem-main {
