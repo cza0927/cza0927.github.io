@@ -6,7 +6,11 @@ author_profile: true
 
 > Books and essays I read outside research. Mostly literature, history, memoir, and other things that help me think slowly.
 
-**Sort by:** <button type="button" id="sort-time" class="btn btn--light-outline">Time</button> | <button type="button" id="sort-topic" class="btn btn--light-outline">Topic</button>
+<div class="bookshelf-sort">
+  <span class="bookshelf-sort-label">Sort by:</span>
+  <button type="button" id="sort-time" class="btn btn--light-outline">Time</button>
+  <button type="button" id="sort-topic" class="btn btn--light-outline">Topic</button>
+</div>
 
 <!-- Available Themes: 
 - Literature
