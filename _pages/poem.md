@@ -9,14 +9,14 @@ author_profile: true
 <div class="poem-list">
   <!--
     Card template:
-    1) Only edit plain text inside .poem-raw and .poem-note-text.
-    2) Separate upper/lower stanza by one blank line in .poem-raw.
-    3) Date format: Date :yyyy.mm.dd
+    1) Set type by card class: poem-card poem-type-poem OR poem-card poem-type-ci.
+    2) Only edit plain text inside .poem-raw and .poem-note-text.
+    3) Separate upper/lower stanza by one blank line in .poem-raw.
+    4) Date format: Date :yyyy.mm.dd
   -->
-  <article class="poem-card">
+  <article class="poem-card poem-type-ci">
     <header class="poem-head">
       <h3 class="poem-title">临江仙·秋夜独酌</h3>
-      <div class="poem-sub"></div>
       <div class="poem-date">Date :2025.9.18</div>
     </header>
 
@@ -38,10 +38,9 @@ author_profile: true
     </div>
   </article>
 
-  <article class="poem-card">
+  <article class="poem-card poem-type-poem">
     <header class="poem-head">
       <h3 class="poem-title">雪中行·仲春廿三赴兰陵道中见飞絮作</h3>
-      <div class="poem-sub"></div>
       <div class="poem-date">Date :2026.4.10</div>
     </header>
 

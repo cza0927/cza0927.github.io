@@ -10,19 +10,25 @@
       .filter(Boolean);
   }
 
+  function getCardType(card) {
+    if (card.classList.contains('poem-type-ci')) return 'ci';
+    return 'poem';
+  }
+
   function renderPoemRaw(card) {
     var raw = card.querySelector('.poem-raw');
     if (!raw) return;
 
     var source = raw.textContent;
     var stanzas = toStanzas(source);
+    var type = getCardType(card);
 
     if (!stanzas.length) return;
 
     raw.innerHTML = '';
     stanzas.forEach(function (stanza) {
       var p = document.createElement('p');
-      p.className = 'poem-stanza';
+      p.className = 'poem-stanza poem-stanza--' + type;
       p.textContent = stanza;
       raw.appendChild(p);
     });
