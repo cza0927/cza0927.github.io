@@ -15,18 +15,20 @@ author_profile: true
   -->
   <article class="poem-card">
     <header class="poem-head">
-      <h3 class="poem-title">水调歌头</h3>
-      <div class="poem-sub">苏轼</div>
-      <div class="poem-date">Date :1076.09.15</div>
+      <h3 class="poem-title">临江仙·秋夜独酌</h3>
+      <div class="poem-sub"></div>
+      <div class="poem-date">Date :2025.9.18</div>
     </header>
 
     <div class="poem-body">
       <div class="poem-main poem-raw">
-明月几时有？把酒问青天。
-不知天上宫阙，今夕是何年。
+霜月三更月如钩，疏星半掩清辉。
+凭案夜饮醉复醒。
+心头云万叠，笔底意千回。
 
-我欲乘风归去，又恐琼楼玉宇，高处不胜寒。
-起舞弄清影，何似在人间。
+曾为前程山水远，几经风雨相随。
+而今可恨水长东。
+旧梦依稀在，新途又燕飞。
       </div>
 
       <aside class="poem-note">
@@ -38,19 +40,16 @@ author_profile: true
 
   <article class="poem-card">
     <header class="poem-head">
-      <h3 class="poem-title">定风波</h3>
-      <div class="poem-sub">苏轼</div>
-      <div class="poem-date">Date :1082.03.07</div>
+      <h3 class="poem-title">雪中行·仲春廿三赴兰陵道中见飞絮作</h3>
+      <div class="poem-sub"></div>
+      <div class="poem-date">Date :2026.4.10</div>
     </header>
 
     <div class="poem-body">
       <div class="poem-main poem-raw">
-莫听穿林打叶声，何妨吟啸且徐行。
-竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。
-
-料峭春风吹酒醒，微冷，山头斜照却相迎。
-回首向来萧瑟处，归去，也无风雨也无晴。
-      </div>
+长风万里破春烟，醉揽晴光入酒宴。
+满城飘絮作飞雪，洗尽浮埃向远川。
+    </div>
 
       <aside class="poem-note">
         <h4 class="poem-note-title">Note</h4>
