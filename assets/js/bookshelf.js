@@ -145,5 +145,107 @@
     sortByTime();
   }
 
+  function trimParagraph(paragraph) {
+    while (paragraph.firstChild && !String(paragraph.firstChild.textContent || '').trim()) {
+      paragraph.removeChild(paragraph.firstChild);
+    }
+
+    while (paragraph.lastChild && !String(paragraph.lastChild.textContent || '').trim()) {
+      paragraph.removeChild(paragraph.lastChild);
+    }
+
+    if (paragraph.firstChild && paragraph.firstChild.nodeType === Node.TEXT_NODE) {
+      paragraph.firstChild.nodeValue = paragraph.firstChild.nodeValue.replace(/^\s+/, '');
+    }
+
+    if (paragraph.lastChild && paragraph.lastChild.nodeType === Node.TEXT_NODE) {
+      paragraph.lastChild.nodeValue = paragraph.lastChild.nodeValue.replace(/\s+$/, '');
+    }
+  }
+
+  function buildNoteContent(note) {
+    var content = document.createElement('span');
+    content.className = 'book-note-content';
+
+    var paragraph = document.createElement('span');
+    paragraph.className = 'book-note-paragraph';
+
+    function pushParagraph() {
+      trimParagraph(paragraph);
+      if (String(paragraph.textContent || '').trim()) {
+        content.appendChild(paragraph);
+      }
+
+      paragraph = document.createElement('span');
+      paragraph.className = 'book-note-paragraph';
+    }
+
+    function appendText(text) {
+      String(text || '')
+        .replace(/\r\n/g, '\n')
+        .split(/\n+/)
+        .forEach(function (part, index) {
+          if (index > 0) pushParagraph();
+          if (part) paragraph.appendChild(document.createTextNode(part));
+        });
+    }
+
+    Array.prototype.slice.call(note.childNodes).forEach(function (node) {
+      if (node.nodeType === Node.TEXT_NODE) {
+        appendText(node.nodeValue);
+      } else if (node.nodeType === Node.ELEMENT_NODE) {
+        paragraph.appendChild(node.cloneNode(true));
+      }
+    });
+
+    pushParagraph();
+    return content;
+  }
+
+  function refreshNoteOverflow(note) {
+    var content = note.querySelector('.book-note-content');
+    if (!content) return;
+
+    note.classList.remove('is-overflowing');
+
+    if (content.scrollHeight > content.clientHeight + 1) {
+      note.classList.add('is-overflowing');
+    }
+  }
+
+  function initBookNotes() {
+    var notes = Array.prototype.slice.call(document.querySelectorAll('.book-note'));
+
+    notes.forEach(function (note) {
+      if (note.dataset.noteReady === 'true') return;
+
+      var content = buildNoteContent(note);
+      var toggle = document.createElement('button');
+
+      toggle.type = 'button';
+      toggle.className = 'book-note-toggle';
+      toggle.setAttribute('aria-label', '展开书评');
+      toggle.setAttribute('aria-expanded', 'false');
+
+      note.innerHTML = '';
+      note.appendChild(content);
+      note.appendChild(toggle);
+      note.dataset.noteReady = 'true';
+
+      toggle.addEventListener('click', function () {
+        var expanded = note.classList.toggle('is-expanded');
+        toggle.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+        toggle.setAttribute('aria-label', expanded ? '收起书评' : '展开书评');
+      });
+
+      refreshNoteOverflow(note);
+    });
+
+    window.addEventListener('resize', function () {
+      notes.forEach(refreshNoteOverflow);
+    });
+  }
+
   ready(initBookshelfSort);
+  ready(initBookNotes);
 })();

@@ -64,6 +64,66 @@
 .book-note {
   margin-top: 10px;
   font-size: 0.9em;
+  line-height: 1.7;
+  position: relative;
+}
+
+.book-note-content {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.book-note.is-expanded .book-note-content {
+  display: block;
+  overflow: visible;
+  -webkit-line-clamp: unset;
+}
+
+.book-note-paragraph {
+  display: block;
+  margin: 0;
+  text-indent: 2em;
+}
+
+.book-note-toggle {
+  position: absolute;
+  right: 0;
+  bottom: 0.12em;
+  width: 1.5em;
+  height: 1.5em;
+  border: 0;
+  padding: 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0), #fff 35%);
+  color: #9a9a9a;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.book-note-toggle::before {
+  content: "";
+  display: inline-block;
+  border-left: 0.34em solid transparent;
+  border-right: 0.34em solid transparent;
+  border-top: 0.48em solid currentColor;
+  vertical-align: middle;
+}
+
+.book-note.is-expanded .book-note-toggle {
+  position: static;
+  display: block;
+  margin-left: auto;
+  background: transparent;
+}
+
+.book-note.is-expanded .book-note-toggle::before {
+  border-top: 0;
+  border-bottom: 0.48em solid currentColor;
+}
+
+.book-note:not(.is-overflowing) .book-note-toggle {
+  display: none;
 }
 
 .sort-btn.is-active {
