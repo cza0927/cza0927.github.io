@@ -39,7 +39,9 @@ author_profile: true
         <span class="book-tag">Theme: 历史小说</span>
         <span class="book-tag">Read: 2025.04-2025.05</span>
       </div>
-      <p class="book-note" markdown="1">A sentence of personal thoughts or short review. Not a deep analysis, just a genuine reflection.</p>
+      <p class="book-note" markdown="1">读完了中国历代政治得失，对钱穆的大师滤镜消失了。站在今天看，我认为钱穆是一个国民党御用文人（屁股决定脑袋）+大汉族主义者（皇汉）+英雄史观持有者（精英视角）。
+书中关于政治体制的论述比较在线，史观的部分太马马虎虎了（尤其对我带清），究竟还是夹带了很多私货的一家之言。看的时候得高强度地批判着看，不建议在未阅读足够的原始史料之时将本书作为史学入门书籍观看。
+但考虑到本书是一个课堂演讲稿的汇编整理，又是在那样一个动乱时期，钱穆抱着亡国的预期和在最后时刻执笔记录整个民族的历史的心态，与《国史大纲》一同创作出的，倒也不会苛之太重。</p>
     </div>
   </div>
 
