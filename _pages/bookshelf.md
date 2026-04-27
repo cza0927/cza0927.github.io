@@ -4,7 +4,7 @@ permalink: /bookshelf/
 author_profile: true
 ---
 
-> Books and essays I read outside research. Mostly literature, history, memoir, and other things that help me think slowly.
+> 从2025年开始，记录读讫书目与所感。
 
 <div class="bookshelf-sort">
   <span class="bookshelf-sort-label">Sort by:</span>
