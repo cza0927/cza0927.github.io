@@ -23,7 +23,7 @@ author_profile: true
       </div>
       <aside class="poem-note">
         <h4 class="poem-note-title">Note</h4>
-        <p class="poem-note-text">三年后回看，则格律音韵不通，实乃矫揉造作，强说愁耳。</p>
+        <p class="poem-note-text">作于2023年暑假，寝室中厅。三年后回看，则格律音韵不通，实乃矫揉造作之词，强说愁耳。</p>
       </aside>
     </div>
   </article>
