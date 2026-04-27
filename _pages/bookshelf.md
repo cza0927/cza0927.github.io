@@ -39,7 +39,7 @@ author_profile: true
         <span class="book-tag">Theme: 历史小说</span>
         <span class="book-tag">Read: 2025.04-2025.05</span>
       </div>
-      <p class="book-note">A sentence of personal thoughts or short review. Not a deep analysis, just a genuine reflection.</p>
+      <p class="book-note" markdown="1">A sentence of personal thoughts or short review. Not a deep analysis, just a genuine reflection.</p>
     </div>
   </div>
 
@@ -52,7 +52,7 @@ author_profile: true
         <span class="book-tag">Theme: 历史小说</span>
         <span class="book-tag">Read: 2025.03-2025.04</span>
       </div>
-      <p class="book-note">A sentence of personal thoughts or short review. Not a deep analysis, just a genuine reflection.</p>
+      <p class="book-note" markdown="1">A sentence of personal thoughts or short review. Not a deep analysis, just a genuine reflection.</p>
     </div>
   </div>
 
@@ -65,7 +65,7 @@ author_profile: true
         <span class="book-tag">Theme: 历史小说</span>
         <span class="book-tag">Read: 2025.12-2026.01</span>
       </div>
-      <p class="book-note">A sentence of personal thoughts or short review. Not a deep analysis, just a genuine reflection.</p>
+      <p class="book-note" markdown="1">A sentence of personal thoughts or short review. Not a deep analysis, just a genuine reflection.</p>
     </div>
   </div>
 
@@ -78,7 +78,7 @@ author_profile: true
         <span class="book-tag">Theme: 当代小说</span>
         <span class="book-tag">Read: 2026.01-2026.02</span>
       </div>
-      <p class="book-note">A short, crisp reflection marking why this read was valuable.</p>
+      <p class="book-note" markdown="1">A short, crisp reflection marking why this read was valuable.</p>
     </div>
   </div>
 </div>

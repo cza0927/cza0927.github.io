@@ -1,0 +1,15 @@
+.life-card {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.life-card p {
+  white-space: pre-line;
+}
+
+.life-card a,
+.book-card a,
+.poem-card a {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}

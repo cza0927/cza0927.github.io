@@ -26,7 +26,7 @@ author_profile: true
       </div>
       <aside class="poem-note">
         <h4 class="poem-note-title">Note</h4>
-        <p class="poem-note-text">在新疆喀什农家院作打油诗一首，详情见 https://mp.weixin.qq.com/s/ADHXEd19kmc7qt_4Z0K9-Q</p>
+        <p class="poem-note-text" markdown="1">在新疆喀什农家院作打油诗一首，详情见 [微信公众号“疆海明灯”图推](https://mp.weixin.qq.com/s/ADHXEd19kmc7qt_4Z0K9-Q)</p>
       </aside>
     </div>
   </article>
@@ -52,7 +52,7 @@ author_profile: true
       </div>
       <aside class="poem-note">
         <h4 class="poem-note-title">Note</h4>
-        <p class="poem-note-text">保研结果最终敲定，感念轻舟已过万重山，于寝室小酌。</p>
+        <p class="poem-note-text" markdown="1">保研结果最终敲定，感念轻舟已过万重山，于寝室小酌。</p>
       </aside>
     </div>
   </article>
@@ -72,7 +72,7 @@ author_profile: true
       </div>
       <aside class="poem-note">
         <h4 class="poem-note-title">Note</h4>
-        <p class="poem-note-text">2026.3.7 作为队伍教练参与五道口金融辩论赛，和队伍一起拿下三连冠。</p>
+        <p class="poem-note-text" markdown="1">2026.3.7 作为队伍教练参与五道口金融辩论赛，和队伍一起拿下三连冠。</p>
       </aside>
     </div>
   </article>
@@ -91,7 +91,7 @@ author_profile: true
     </div>
       <aside class="poem-note">
         <h4 class="poem-note-title">Note</h4>
-        <p class="poem-note-text">2026.4.10 北京开始飘柳絮的第一天，正收拾行李前往枣庄市兰陵县，跟通院法律AI实验室一起前往兰陵县人民法院调研，途中所作，感念近来顺遂。</p>
+        <p class="poem-note-text" markdown="1">2026.4.10 北京开始飘柳絮的第一天，正收拾行李前往枣庄市兰陵县，跟通院法律AI实验室一起前往兰陵县人民法院调研，途中所作，感念近来顺遂。</p>
       </aside>
     </div>
   </article>
