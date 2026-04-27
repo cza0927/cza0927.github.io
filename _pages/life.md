@@ -66,11 +66,11 @@ author_profile: true
     <h3 style="margin: 0;">一些社会实践活动</h3>
     <p style="margin: 5px 0; color: #777; font-size: 0.9em;"></p>
     <p style="margin: 10px 0 0;" markdown="1">
-【2023年初寒假】“伫候佳音”清系母校支队（任副支队长），支队获评第二十一届情系母校小型支队银奖，搜索公众号“伫候佳音JYZers”详情。
+【2023年初&寒假】“伫候佳音”清系母校支队（任副支队长），支队获评第二十一届情系母校小型支队银奖，搜索公众号“伫候佳音JYZers”详情。
 
 【2023年暑假】“疆海明灯”赴新疆喀什实践支队(任支队长)，实践支队入选全国“三下乡”"新疆学子百村行"专项社会实践优秀团队([新疆共青团](https://mp.weixin.qq.com/s/g8kl6zOMtBTYJv3lTQsf6w))，获评2023年自动化系暑期社会实践金奖支队（[自动化系团委宣传平台（紫冬话语）](https://mp.weixin.qq.com/s/VMXB5lBp_ukhoypAlVJn_A)）、2023年清华大学社会实践金奖支队([清华大学社会实践](https://mp.weixin.qq.com/s/OP9w086qtTWoS_FZePCOpw)、[清华大学自动化系](https://mp.weixin.qq.com/s/MhIeTwUGnzF9FNq2TsfA5A)、[自动化系团委宣传平台（紫冬话语）](https://mp.weixin.qq.com/s/BdKDibMqYBuACWU1vy-3sA))，点击查看[实践总结推送](https://mp.weixin.qq.com/s/KVZ8h_K6A9yLImhiNaiarg)，搜索公众号&视频号“疆海明灯”查看全部推文及视频。
 
-【2024年寒假】“环雾寻春”赴英国调研可持续发展实践支队(任支队长)，实践支队获评清华大学海外社会实践A等级团队（[清华大学社会实践](https://mp.weixin.qq.com/s/Qz2rmAWP8xw0WyhS48PUkw)）
+【2024年初&寒假】“环雾寻春”赴英国调研可持续发展实践支队(任支队长)，实践支队获评清华大学海外社会实践A等级团队（[清华大学社会实践](https://mp.weixin.qq.com/s/Qz2rmAWP8xw0WyhS48PUkw)）
     </p>
   </div>
 

@@ -7,6 +7,30 @@ author_profile: true
 > 创作的小诗小词，录于此处，许不足先生一哂。
 
 <div class="poem-list">
+  <article class="poem-card poem-type-ci">
+    <header class="poem-head">
+      <h3 class="poem-title">溽月醉悲</h3>
+      <div class="poem-date">Date :2023.6.28</div>
+    </header>
+    <div class="poem-body">
+      <div class="poem-main poem-raw">
+
+丑时未眠，大醉，弃绝格律，狂题作此篇，聊表嗟叹。
+
+葡萄美酒，怎奈夜渐阑珊。忽觉夏深年已半，又把浮生叹。月未圆，人聚散如烟。路漫漫，多少辗转悲欢。谁执念，却难辨。谁半生，终无怨。
+
+锦瑟绕弦音欢颜，华年匆匆流转。岁月如歌幽怨篇，无常悲喜间。浮华纷扰何处安，心念随风变幻。愿寻归处，红尘随步还。​乘风面命途，任自然。望窗外，繁星如画。前路无限，且行且安。
+      </div>
+      <aside class="poem-note">
+        <h4 class="poem-note-title">Note</h4>
+        <p class="poem-note-text">三年后回看，则格律音韵不通，实乃矫揉造作，强说愁耳。</p>
+      </aside>
+    </div>
+  </article>
+
+
+
+<div class="poem-list">
   <article class="poem-card poem-type-poem">
     <header class="poem-head">
       <h3 class="poem-title">斗鸡赋</h3>
@@ -26,7 +50,7 @@ author_profile: true
       </div>
       <aside class="poem-note">
         <h4 class="poem-note-title">Note</h4>
-        <p class="poem-note-text" markdown="1">在新疆喀什农家院作打油诗一首，详情见 [微信公众号“疆海明灯”图推](https://mp.weixin.qq.com/s/ADHXEd19kmc7qt_4Z0K9-Q)</p>
+        <p class="poem-note-text">在新疆喀什农家院作打油诗一首，详情见 [微信公众号“疆海明灯”图推](https://mp.weixin.qq.com/s/ADHXEd19kmc7qt_4Z0K9-Q)</p>
       </aside>
     </div>
   </article>
@@ -52,7 +76,7 @@ author_profile: true
       </div>
       <aside class="poem-note">
         <h4 class="poem-note-title">Note</h4>
-        <p class="poem-note-text" markdown="1">保研结果最终敲定，感念轻舟已过万重山，于寝室小酌。</p>
+        <p class="poem-note-text">保研结果最终敲定，感念轻舟已过万重山，于寝室小酌。</p>
       </aside>
     </div>
   </article>
@@ -72,7 +96,7 @@ author_profile: true
       </div>
       <aside class="poem-note">
         <h4 class="poem-note-title">Note</h4>
-        <p class="poem-note-text" markdown="1">2026.3.7 作为队伍教练参与五道口金融辩论赛，和队伍一起拿下三连冠。</p>
+        <p class="poem-note-text">2026.3.7 作为队伍教练参与五道口金融辩论赛，和队伍一起拿下三连冠。</p>
       </aside>
     </div>
   </article>
@@ -91,7 +115,7 @@ author_profile: true
     </div>
       <aside class="poem-note">
         <h4 class="poem-note-title">Note</h4>
-        <p class="poem-note-text" markdown="1">2026.4.10 北京开始飘柳絮的第一天，正收拾行李前往枣庄市兰陵县，跟通院法律AI实验室一起前往兰陵县人民法院调研，途中所作，感念近来顺遂。</p>
+        <p class="poem-note-text">2026.4.10 北京开始飘柳絮的第一天，正收拾行李前往枣庄市兰陵县，跟通院法律AI实验室一起前往兰陵县人民法院调研，途中所作，感念近来顺遂。</p>
       </aside>
     </div>
   </article>
