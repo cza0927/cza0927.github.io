@@ -12,7 +12,7 @@ author_profile: true
   <!-- Life Card Example 1 -->
   <div class="life-card" style="margin-bottom: 30px; padding: 15px; border-left: 4px solid #eaeaea; background: #fafafa;">
     <h3 style="margin: 0;">一些在清华的主持</h3>
-    <p style="margin: 5px 0; color: #777; font-size: 0.9em;">北京</p>
+    <p style="margin: 5px 0; color: #777; font-size: 0.9em;"></p>
     <p style="margin: 10px 0 0;" markdown="1">
 2023年暑假清华大学社会实践品牌项目答辩年会
 2023年自动化系暑期社会实践动员会主持人
