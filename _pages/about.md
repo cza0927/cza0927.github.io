@@ -109,6 +109,6 @@ Chandler Smith, ...,  Zhiqiang Wu, **Ziang Chen**, ..., Joel Z. Leibo
 
 <div class="page-views-section">
   <div class="page-views-map">
-    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=_zcjv5wfxLNZfRt81JSpneKYH7CBi8aHcMxnfISCcRQ&cl=ffffff&w=a"></script>
+    <script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?cl=2d78ad&w=500&t=tt&d=_zcjv5wfxLNZfRt81JSpneKYH7CBi8aHcMxnfISCcRQ&co=ffffff&cmo=d83d3d&cmn=31a331&ct=000000"></script>
   </div>
 </div>
